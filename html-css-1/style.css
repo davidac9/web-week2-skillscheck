@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: gray;
+    height: 40px;
+    display: flex;
+    justify-content: right;
+    list-style: none;
+}
+li {
+    font-family: sans-serif;
+    color: white;
+    padding-right: 20px;
+    padding-top: 8px;
+}
+h3 {
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: -10px;
+}
+.black-box {
+    padding-top: 0px;
+    height: 300px;
+    background-color: black;
+    display: flex;
+}
+h1 {
+    font-family: sans-serif;
+    font-size: 4em;
+    color: yellow;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    right: 20%;
+    /* bottom: 70%; */
+}
+
+.green-boxes {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.boxes {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px
+}
+
+.orange-boxes {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.oranges {
+    background-color: orange;
+    height: 200px;
+    width: 400px;
+    /* margin-top: 30px; */
+}
+
+.text-elephant {
+    display: flex;
+    justify-content: space-around
+}
+
+.text {
+    width: 20vw;
+}
+
+footer {
+    background-color: rgb(39, 39, 39);
+    height: 100px;
+}
